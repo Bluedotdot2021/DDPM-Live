@@ -22,6 +22,10 @@ Diffusion扩散算法几乎是当前最流行的图像生成算法，DDPM及其�
 
 <img src="gen.png" alt="生成数据" width="350" height="350">
 
+## 关于训练数据
+由于训练数据文件比较大，所以本仓库中没有包含训练数据。可通过链接得到数据：https://github.com/explainingai-code/VAE-Pytorch#data-preparation
+下载后将数据分成train和test两部分，将train和test两个目录拷贝到dataset/data目录下即可。
+
 ## 谁是淡蓝小点
 淡蓝小点是PRML Page-by-page项目的发起人，这是一个旨在帮助机器学习从业人员读懂PRML每一页的项目，它包括约80小时的视频和一本1000页的note，可通过下面链接找到相关视频。若想要note请加微信索取。
 
