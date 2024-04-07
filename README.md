@@ -13,6 +13,15 @@ Diffusion扩散算法几乎是当前最流行的图像生成算法，DDPM及其�
 - 第2场：Python代码实现 2024.4.4 14：30 时长约90分钟 回看地址：https://deilm.xetlk.com/sl/2uI03w
 - 第3场：Python代码实现2 2024.4.4 19：30 时长约120分钟 回看地址：https://deilm.xetlk.com/sl/4tehIJ
 
+## 最终实现
+以MNIST为训练数据，训练出一个生成0~9的手写数字体的扩散模型。训练数据是一张张的手写数字体，为了便于观察将多张合并之后如下所示（训练时一个单独的数字照片是一个训练数据）：
+
+<img src="merge_0.png" alt="训练数据" width="250" height="250">  <img src="merge_1.png" alt="训练数据" width="250" height="250">
+
+训练完成后生成的效果如下所示：
+
+<img src="gen.png" alt="生成数据" width="350" height="350">
+
 ## 谁是淡蓝小点
 淡蓝小点是PRML Page-by-page项目的发起人，这是一个旨在帮助机器学习从业人员读懂PRML每一页的项目，它包括约80小时的视频和一本1000页的note，可通过下面链接找到相关视频。若想要note请加微信索取。
 
